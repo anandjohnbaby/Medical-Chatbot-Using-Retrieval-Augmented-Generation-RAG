@@ -24,8 +24,8 @@ git clone https://github.com/your-username/medical-qa-chatbot.git](https://githu
 pip install -r requirements.txt
 ```
 
-## Dataset
-The chatbot uses a medical Q&A dataset (`medquad.csv`). Ensure this dataset is available in the project directory.
+## Dataset  
+The chatbot uses a medical Q&A dataset (`medquad.csv`). Ensure this dataset is available in the project directory. You can find the dataset on Kaggle: [MedQuad - Medical Question Answer for AI Research](https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-ai-research).
 
 ## Running the Application
 To start the chatbot, run:
