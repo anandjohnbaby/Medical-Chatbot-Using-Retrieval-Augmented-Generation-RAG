@@ -16,7 +16,7 @@ Ensure you have Python 3.8+ installed along with the required dependencies.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/medical-qa-chatbot.git](https://github.com/anandjohnbaby/Medical-Chatbot-Using-Retrieval-Augmented-Generation-RAG.git
+git clone https://github.com/anandjohnbaby/Medical-Chatbot-Using-Retrieval-Augmented-Generation-RAG.git
 ```
 
 ### Install Dependencies
