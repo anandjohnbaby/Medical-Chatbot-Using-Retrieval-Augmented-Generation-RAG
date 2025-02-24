@@ -5,6 +5,10 @@ import faiss
 import streamlit as st
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 # Load dataset
 df = pd.read_csv("medquad.csv")
@@ -42,7 +46,7 @@ else:
 print("FAISS index ready!")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCP_0PsR77gajEW1RP6ZV66kzCiNed8rzk")
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-pro")
 
 # Function to search FAISS and generate response
