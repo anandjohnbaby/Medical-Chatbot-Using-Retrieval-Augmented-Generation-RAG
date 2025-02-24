@@ -30,7 +30,7 @@ The chatbot uses a medical Q&A dataset (`medquad.csv`). Ensure this dataset is a
 ## Running the Application
 To start the chatbot, run:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ## How It Works
