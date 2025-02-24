@@ -2,6 +2,7 @@
 
 ## Overview
 This project implements a **Medical Q&A Chatbot** using **retrieval-augmented generation (RAG)** combined with **semantic search** and **large language model (LLM) response generation**. The chatbot retrieves relevant medical answers from a dataset and enhances them using **Gemini AI** for a more refined response.
+![sdsdsd](https://github.com/user-attachments/assets/f6588d82-97d0-4b01-bce6-747bd9951d63)
 
 ## Features
 - **Semantic Search with Sentence Embeddings**: Converts medical questions into vector embeddings using `SentenceTransformer` (`all-MiniLM-L6-v2`).
