@@ -53,6 +53,34 @@ streamlit run main.py
 - **Gemini AI (LLM)** (`gemini-pro` model)
 - **Streamlit** (Web UI)
 - **NumPy, Pandas, OS** (Data handling)
+##  Model Evaluation
+
+To assess the chatbot’s accuracy, we evaluated retrieval and response generation using the following metrics:
+
+###  1. FAISS Retrieval Accuracy
+- Measures the percentage of questions where the closest match found by FAISS is correct.
+- **Accuracy:** 89.3%
+
+###  2. ROUGE Score (Text Similarity)
+
+| Metric   | Score  |
+|----------|--------|
+| **ROUGE-1** | **0.9170** |
+| **ROUGE-2** | **0.8953** |
+| **ROUGE-L** | **0.9033** |
+| **ROUGE-Lsum** | **0.9059** |
+
+#### Interpretation:
+- The chatbot-generated answers are **~90% similar** to expert-written responses.
+- The **high ROUGE scores** indicate **good content relevance** and **meaningful answer generation**.
+
+###  3. Semantic Similarity Score
+- Measures **cosine similarity** between retrieved and ground truth answers.
+- **Average Similarity:** 88.7%
+
+#### Interpretation:
+- The chatbot retrieves **semantically relevant responses**.
+
 
 ## Future Enhancements
 - Add support for more medical datasets.
